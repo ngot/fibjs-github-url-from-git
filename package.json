@@ -4,11 +4,11 @@
   "description": "Parse a github git url and return the github repo url",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js --reporter spec --require should"
+    "test": "js test.js"
   },
   "repository": {
     "type":"git",
-    "url":"http://github.com/visionmedia/node-github-url-from-git"
+    "url":"https://github.com/ngot/fibjs-github-url-from-git.git"
   },
   "keywords": [
     "github",
@@ -17,10 +17,5 @@
     "parser"
   ],
   "author": "TJ Holowaychuk",
-  "license": "MIT",
-  "devDependencies": {
-    "better-assert": "~1.0.0",
-    "mocha": "~1.9.0",
-    "should": "~1.2.2"
-  }
+  "license": "MIT"
 }
